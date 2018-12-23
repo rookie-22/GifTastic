@@ -1,0 +1,66 @@
+<!-- Giftastic html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- viewport support for responsive with bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- using a reset css stylesheet -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- using some bootstrap for formatting this is link to bootstrap cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- css for any bootstrap overrides or other styles -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Rock N Roll Giftastic</title>
+</head>
+
+<body>
+    <!-- bootstrap jumbotron and row with directions + bonus this makes the page responsive -->
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="text-center">Rock N Roll Giftastic!</h1>
+        </div>
+<br>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="renButtons"></div>
+            </div>
+        </div>
+<br>
+        <div class="row">
+            <div class="col-md-12">
+                <form id="form">
+                    <label for="rock-input"></label>
+                    <input type="text" id="rock-input"><br>
+            </div>
+        </div>
+<br>
+        <div class="row">
+            <div class="col-md-12">
+                <input id="add-rock" type="submit" value="Add A Band">
+            </div>
+        </div>
+<br>
+        <div class="row">
+            <div class="col-md-12 gif">
+                <div id="topics"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- some breaks for spacing on bottom of page for formatting -->
+    <br><br><br>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+<!-- footer -->
+<footer class="fixed-bottom">
+    <h3>created by Steve Tucker</h3>
+</footer>
+
+</html>

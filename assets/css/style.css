@@ -1,0 +1,35 @@
+/* psychic game css */
+
+/* jumbotron background */
+.jumbotron{
+    background-color:aqua;
+}
+
+.rock {
+    margin-right: 10px;
+    color: red;
+}
+
+#rock-input {
+    margin: 0;
+    padding: 0;
+}
+
+#add-rock {
+    /* color: red;
+    background-color:aqua; */
+}
+
+/* format for the footer  */
+footer {
+    text-align: center;
+    color: white;
+    clear: both;
+    background-color: #666666;
+    padding: 15px 0px;
+}
+
+/* footer formatting for h3 elements */
+footer h3 {
+    font-size: 12px;
+}
